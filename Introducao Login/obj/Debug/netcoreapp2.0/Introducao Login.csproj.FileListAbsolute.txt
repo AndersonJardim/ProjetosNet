@@ -1,0 +1,12 @@
+C:\Documentos_Dell_Anderson\ProjetosNet\Introducao Login\Introducao Login\bin\Debug\netcoreapp2.0\Introducao Login.deps.json
+C:\Documentos_Dell_Anderson\ProjetosNet\Introducao Login\Introducao Login\bin\Debug\netcoreapp2.0\Introducao Login.runtimeconfig.json
+C:\Documentos_Dell_Anderson\ProjetosNet\Introducao Login\Introducao Login\bin\Debug\netcoreapp2.0\Introducao Login.runtimeconfig.dev.json
+C:\Documentos_Dell_Anderson\ProjetosNet\Introducao Login\Introducao Login\bin\Debug\netcoreapp2.0\Introducao Login.dll
+C:\Documentos_Dell_Anderson\ProjetosNet\Introducao Login\Introducao Login\bin\Debug\netcoreapp2.0\Introducao Login.pdb
+C:\Documentos_Dell_Anderson\ProjetosNet\Introducao Login\Introducao Login\obj\Debug\netcoreapp2.0\Introducao Login.csprojAssemblyReference.cache
+C:\Documentos_Dell_Anderson\ProjetosNet\Introducao Login\Introducao Login\obj\Debug\netcoreapp2.0\Introducao Login.csproj.CoreCompileInputs.cache
+C:\Documentos_Dell_Anderson\ProjetosNet\Introducao Login\Introducao Login\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Documentos_Dell_Anderson\ProjetosNet\Introducao Login\Introducao Login\obj\Debug\netcoreapp2.0\Introducao Login.AssemblyInfoInputs.cache
+C:\Documentos_Dell_Anderson\ProjetosNet\Introducao Login\Introducao Login\obj\Debug\netcoreapp2.0\Introducao Login.AssemblyInfo.cs
+C:\Documentos_Dell_Anderson\ProjetosNet\Introducao Login\Introducao Login\obj\Debug\netcoreapp2.0\Introducao Login.dll
+C:\Documentos_Dell_Anderson\ProjetosNet\Introducao Login\Introducao Login\obj\Debug\netcoreapp2.0\Introducao Login.pdb
