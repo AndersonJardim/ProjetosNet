@@ -12,7 +12,8 @@ namespace Introducao_Login.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            List<string> paises = new List<string>() { "Brasil", "Meéxio", "Uruguai", "Angola" }; //Adicionei Angola
+            return View(paises);
         }
 
         public IActionResult About()

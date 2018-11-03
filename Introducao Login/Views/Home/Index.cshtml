@@ -1,12 +1,14 @@
-﻿@{
+﻿@model List<string>
+
+@{
     ViewData["Title"] = "Home Page";
     String nome = "Anderson Jose Jardim";
-    List<string> paises = new List<string>() { "Brasil", "Meéxio", "Uruguai" };
+    //List<string> paises = new List<string>() { "Brasil", "Meéxio", "Uruguai" };
 }
 
 <p>@nome</p>
 <ul>
-    @foreach (var pais in paises)
+    @foreach (var pais in Model)
     {
         <li>@pais</li>
     }
