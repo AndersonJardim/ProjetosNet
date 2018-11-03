@@ -6,6 +6,10 @@
     //List<string> paises = new List<string>() { "Brasil", "Meéxio", "Uruguai" };
 }
 
+@inject Microsoft.AspNetCore.Hosting.IHostingEnvironment env
+<p>@nome</p>
+<p>@env.EnvironmentName</p>
+
 <p>@nome</p>
 <ul>
     @foreach (var pais in Model)
