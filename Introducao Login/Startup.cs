@@ -11,6 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Introducao_Login.Data;
 using Introducao_Login.Models;
 using Introducao_Login.Services;
+using Login.Services;
 
 namespace Introducao_Login
 {
@@ -35,6 +36,7 @@ namespace Introducao_Login
 
             // Add application services.
             services.AddTransient<IEmailSender, EmailSender>();
+            services.AddScoped<IRepositorioPaises, PaisesRepositorioMemoria>();
 
             services.AddMvc();
         }

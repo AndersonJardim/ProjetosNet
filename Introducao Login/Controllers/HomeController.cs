@@ -5,14 +5,22 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Introducao_Login.Models;
+using Login.Services;
 
 namespace Introducao_Login.Controllers
 {
     public class HomeController : Controller
     {
+        public IRepositorioPaises Repositorio { get; }
+
+        public HomeController(IRepositorioPaises repositorio)
+        {
+            Repositorio = repositorio;
+        }
+
         public IActionResult Index()
         {
-            List<string> paises = new List<string>() { "Brasil", "Meéxio", "Uruguai", "Angola" }; //Adicionei Angola
+            var paises = Repositorio.ObterPaises();
             return View(paises);
         }
 
