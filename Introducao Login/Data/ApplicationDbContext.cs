@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Introducao_Login.Models;
+using Introducao;
 
 namespace Introducao_Login.Data
 {
@@ -14,6 +15,8 @@ namespace Introducao_Login.Data
             : base(options)
         {
         }
+
+        public DbSet<Pais> Paises { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
