@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Introducao Login.Models
+namespace Login.Models //removido a palavra Introducao 
 {
     public class Pais
     {
