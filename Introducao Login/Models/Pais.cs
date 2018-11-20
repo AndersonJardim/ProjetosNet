@@ -7,10 +7,12 @@ namespace Login.Models
 {
     public class Pais
     {
+        /* Para testar, precisarei desabilitar por enquanto.
         public Pais(string nome)
         {
             Nome = nome;
         }
+        */
 
         public int id { get; set; }
 
